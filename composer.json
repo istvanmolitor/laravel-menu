@@ -1,0 +1,24 @@
+{
+  "name": "istvanmolitor/laravel-menu",
+  "description": "Laravel menü",
+  "type": "libary",
+  "authors": [
+    {
+      "name": "Molitor István",
+      "email": "istvanmolitor@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "IstvanMolitor\\LaravelMenu\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IstvanMolitor\\LaravelMenu\\Providers\\LaravelMenuServiceProvider"
+      ]
+    }
+  }
+}
