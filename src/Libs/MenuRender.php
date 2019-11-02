@@ -2,7 +2,7 @@
 
 namespace IstvanMolitor\LaravelMenu\Libs;
 
-class MenuManager
+class MenuRender
 {
     public function render($name)
     {
